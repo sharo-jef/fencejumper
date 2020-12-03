@@ -10,7 +10,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber
 import net.minecraftforge.api.distmarker.Dist
 
-@EventBusSubscriber
+@EventBusSubscriber(Dist.CLIENT)
 class ClientEventHandler {
     companion object {
         @JvmStatic
