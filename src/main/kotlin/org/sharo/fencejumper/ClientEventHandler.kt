@@ -15,8 +15,8 @@ class ClientEventHandler {
     companion object {
         @JvmStatic
         @SubscribeEvent
-        public fun onPlayerJump(event: LivingEvent.LivingJumpEvent) {
-            val entity = event.getEntity()
+        fun onPlayerJump(event: LivingEvent.LivingJumpEvent) {
+            val entity = event.entity
             if (entity is ClientPlayerEntity) {
                 if (
                     entity.movementInput.jump
