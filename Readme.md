@@ -1,5 +1,7 @@
 # Fence Jumper
 
+This is the **unofficial** version for MCJE 1.16.4.
+
 ## Overview
 
 A simple utility mod that allows jumping over fences and walls without the need for pesky carpet, trap doors, or jump boost.
